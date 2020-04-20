@@ -33,6 +33,10 @@ const texasss = [
   ]
   
   // Part 1 - Find all users older than 24
+  for(x in texasss){
+    if(texasss[x].age > 24)
+    document.write("<li>" + texasss[x].name + "</li>")
+  }
   // Part 2 - Find the total age of all users
   // Part 3 - List all female coders
   
