@@ -10,7 +10,7 @@
   font-weight: 700; }
   * body header {
     background-color: #96c5dc;
-    position: fixed;
+    position: absolute;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -226,3 +226,19 @@
       background-image: url("../Design/Assets/png/En chiffres-30@2x.png");
       background-repeat: no-repeat;
       background-size: 100%; }
+      input.MyButton {
+    border: none;
+    margin: 0;
+    text-align: justify;
+    background: #1087c7;
+    color: white;
+    font-family: 'cairo', sans-serif;
+    font-size: 24px;
+    padding: 10px 99px;
+    border-radius: 8px;
+        }
+        input.MyButton:hover {
+        color: #ffff00;
+        background: #000;
+        border: 1px solid #fff;
+        }
