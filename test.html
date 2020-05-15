@@ -1,67 +1,62 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/test.css">
-  <!-- <link rel="stylesheet" href="css/style.comp.css"> -->
-  <title>COVID-19</title>
+ <link rel="stylesheet" href="css/style.comp.css">
+  <title>Document</title>
 </head>
 
-<body class="body">
-       <header>
-  <img src="Design/Assets/SVG/logo__sante-1.svg" />
+<body>
 
-            <div>
-                <a href="ConseillArab.html" class="Conseil__header">نصائح</a>
-                <a href="index.html" class="Acceil__header">الرئيسية</a>
-                <a id="lange1" href="AcceuilFrancais.html">FRAN
-                    <img src="Design/Assets/SVG/globe.svg"style="width: 20px;padding: 2px;" />
-                </a>
-            </div>
+  <body class="body">
+    <header>
+<img src="Design/Assets/SVG/logo__sante-1.svg" />
 
-          </header>
-          <article id="general">
-              <section id="section1">
-                  <h1>LA DERNIÈRE INFO MÉDICALE</h1>
-                  <p id="p__section1">
-                      La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur</br>
-                      d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.</br>
-                      N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacien
-                  </p>
-            </section>
-  
- 
-  <!-- ------------------------------------top-main--------------------------------- -->
+         <div>
+             <a href="ConseillArab.html" class="Conseil__header">نصائح</a>
+             <a href="index.html" class="Acceil__header">الرئيسية</a>
+             <a id="lange1" href="AcceuilFrancais.html">FRAN
+                 <img src="Design/Assets/SVG/globe.svg"style="width: 20px;padding: 2px;" />
+             </a>
+         </div>
 
-  <menu>
-    <!-- ------section-I-------- -->
-    <section class="sect-top section">
-      <div class="top-bar">
-        <div class="bar">
-          <img class="imgbar" src="/img/active.svg" alt="">
-          <h3 class="Info-bar">Informations</h3>
+       </header>
+       <article id="general">
+           <section id="section1">
+               <h1>LA DERNIÈRE INFO MÉDICALE</h1>
+               <p id="p__section1">
+                   La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur</br>
+                   d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.</br>
+                   N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacien
+               </p>
+         </section>
+  <main>
+    <section class="main__inform sect ">
+      <div class="main__tags">
+        <div class="main__tag">
+          <img class="main__inform__img  main__inform__img--active" src="img/active.svg" alt="">
+          <h3 class="h3__active">Informations</h3>
         </div>
-
-        <div class="bar">
-          <img class="imgbar" src="/img/desactive.svg" alt="">
-          <h3 class="Info-bar">Questionnaire</h3>
+        <div class="main__tag">
+          <img class="main__inform__img" src="img/desactive.svg" alt="">
+          <h3>Questionnaire</h3>
         </div>
-
-        <div class="bar">
-          <img class="imgbar" src="/img/desactive.svg" alt="">
-          <h3 class="Info-bar">Résultats</h3>
+        <div class="main__tag">
+          <img class="main__inform__img" src="img/desactive.svg" alt="">
+          <h3>Résultats</h3>
         </div>
       </div>
-      <div class="sect-pre">
+      <div class="main__Preambule">
         <h3>Préambule</h3>
         <p>« L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour
           contribuer à fluidifier la prise en charge des personnes par les services d’urgences pendant l’épidémie de
           Coronavirus COVID-19. L’exhaustivité, l’exactitude, le caractère à jour des informations et contenus mis à
           disposition dans cette application, ou leur adéquation à des finalités particulières, ne sont pas garantis.
         </p>
-        <div class="line"></div>
+        <hr>
         <p> L’utilisation de l’application et de son contenu ne remplace en aucun cas le conseil nécessaire donné par
           votre médecin ou votre pharmacien ou tout autre professionnel de santé compétent dans chaque cas
           particulier. Tout examen ou décision de l’utilisateur doit être réalisé ou prise de manière autonome sur la
@@ -70,152 +65,119 @@
       </div>
       <a href="#" id="demarer">Demarer le test</a>
     </section>
-    <!-- ------section-II-------- -->
-    <section class="sect-question section hide">
-
-      <div class="top-bar">
-        <div class="bar">
-          <img class="imgbar" src="/img/desactive.svg" alt="">
-          <h3 class="Info-bar">Informations</h3>
+    <section class="main__questionnaire sect affiche">
+      <div class="main__tags">
+        <div class="main__tag">
+          <img class="main__inform__img" src="img/desactive.svg" alt="">
+          <h3 class="h3__active">Informations</h3>
         </div>
-        <div class="bar">
-          <img class="imgbar" src="/img/active.svg" alt="">
-          <h3 class="Info-bar">Questionnaire</h3>
+        <div class="main__tag">
+          <img class="main__inform__img  main__inform__img--active" src="img/active.svg" alt="">
+          <h3>Questionnaire</h3>
         </div>
-        <div class="bar">
-          <img class="imgbar" src="/img/desactive.svg" alt="">
-          <h3 class="Info-bar">Résultats</h3>
+        <div class="main__tag">
+          <img class="main__inform__img" src="img/desactive.svg" alt="">
+          <h3>Résultats</h3>
         </div>
       </div>
-
       <form id="form">
-
-        <div class="progress-bar">
-          <div class="position">
+        <div class="numerotation">
+          <div class="relative">
             <div class="progressbar">
             </div>
-            <progress id="progress-max" max="3"> </progress>
+            <progress id="file" max="3"> </progress>
           </div>
-          <p id="Numprogress"></p>
+          <p id="afficheNum"></p>
         </div>
-
-        <div class="question-affiche">
-          <!-- <p class="prg-question">
-            Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons,
-            sueurs) ?
-          </p>
-          <div class="les-inputs">
-            <div class="inpt">
-              <input type="radio" name="Q1" id="Oui" value="Oui">
-              <label for="Oui">
-                <span>:Oui</span>
-              </label>
-            </div>
-            <hr>
-            <div class="inpt">
-              <input type="radio" name="Q1" id="Non" value="Non">
-              <label for="Non">
-                <span>:Non</span>
-              </label></div>
-            </div> -->
-
-          <!-- <p class="prg-question--c">
-            Quelle est votre température corporelle ?
-          </p>
-          <div class="answer-inputs">
-            <input type="number" name="Q2" id="degrés" min="34" max="42" placeholder="34 - 42">
-            <span class="input-span">degrés</span>
-          </div> -->
+        <div class="questions">
 
         </div>
-
-        <div class="button">
+        <div class="inputs">
           <input type="submit" value="precedent" id="precedent">
           <input type="submit" value="suivant" id="suivant">
-          <input type="submit" value="afficher le resultat" id="resultat" class="hide">
+          <input type="submit" value="afficher le resultat" id="resultat" class="affiche">
         </div>
-
       </form>
-    </section>
-    <!-- ------section-III-------- -->
-    <section class="sect-resultat section hide">
 
-      <div class="top-bar">
-        <div class="bar">
-          <img class="imgbar" src="/img/desactive.svg" alt="">
-          <h3 class="Info-bar">Informations</h3>
+    </section>
+    <section class="main__Resultat sect affiche">
+      <div class="main__tags">
+        <div class="main__tag">
+          <img class="main__inform__img " src="img/desactive.svg" alt="">
+          <h3 class="h3__active">Informations</h3>
         </div>
-        <div class="bar">
-          <img class="imgbar" src="/img/desactive.svg" alt="">
-          <h3 class="Info-bar">Questionnaire</h3>
+        <div class="main__tag">
+          <img class="main__inform__img" src="img/desactive.svg" alt="">
+          <h3>Questionnaire</h3>
         </div>
-        <div class="bar">
-          <img class="imgbar" src="/img/active.svg" alt="">
-          <h3 class="Info-bar">Résultats</h3>
+        <div class="main__tag">
+          <img class="main__inform__img main__inform__img--active " src="img/active.svg" alt="">
+          <h3>Résultats</h3>
         </div>
       </div>
-
-      <div class="affiche-resultat">
+      <div class="affiche__resultat">
         <h3>Résultat</h3>
         <p id="affichageResult"> </p>
-        <div class="line"></div>
+        <hr>
         <span> Restez chez vous au maximum en attendant que les symptômes disparaissent. Prenez votre température deux
           fois par jour. Rappel des mesures d’hygiène. </span>
       </div>
-      <input type="submit" value="Recommencer le test" id="RecommenceTest">
+      <input type="submit" value="Recommencer le test" id="repeter">
     </section>
-  </menu>
+  </main>
+</section>
 
-  <section id="section4">
-    <h1>Recommandations officielles</h1>
-    <div>
-        <article id="article1__section4">
-            <span> Si vous pensez être malade,</span><br>
-            évitez les endroits publics.<br>
-            Ne rendez pas visite aux personnes fragiles.<br>
-            Évitez de sortir de chez vous.<br>
-            Respectez les mesures barrière (lavage de main, masque).<br>
-            Surveillez vos symptômes, l’évolution de votre température<br>
-            corporelle et recherchez un avis médical.<br>
-        </article>
-        <article id="article2__section4">
-            <h2 id="h21__article2">Apple Gratuit</h2>
-            <span id="h22__article2">080 100 47 47</span></br>
-            <a href="https://www.sante.gov.ma/">www.sante.gov.ma</a>
-        </article>
-    </div>
+
+<section id="section4">
+  <h1>Recommandations officielles</h1>
+  <div>
+      <article id="article1__section4">
+          <span> Si vous pensez être malade,</span><br>
+          évitez les endroits publics.<br>
+          Ne rendez pas visite aux personnes fragiles.<br>
+          Évitez de sortir de chez vous.<br>
+          Respectez les mesures barrière (lavage de main, masque).<br>
+          Surveillez vos symptômes, l’évolution de votre température<br>
+          corporelle et recherchez un avis médical.<br>
+      </article>
+      <article id="article2__section4">
+          <h2 id="h21__article2">Apple Gratuit</h2>
+          <span id="h22__article2">080 100 47 47</span></br>
+          <a href="https://www.sante.gov.ma/">www.sante.gov.ma</a>
+      </article>
+  </div>
 </section>
 <footer id="footer1">
-    <div id="img__footer1">
-        <img src="Design/Assets/SVG/logo__sante-48.svg" />
-    </div>
+  <div id="img__footer1">
+      <img src="Design/Assets/SVG/logo__sante-48.svg" />
+  </div>
 
-    <div id="div1__footer1">
-        <a id="lange2" href="AcceuilFransh.html">FRAN <img src="Design/Assets/SVG/globe.svg"
-                style="width: 20px;padding: 2px;" /></a>
-        <a href="Acceuilarab.html" class="Acceil__header"> الرئيسية</a>
-        <a href="ConseillArab.html" class="Conseil__header">نصائح</a>
-    </div>
-    <div id="div2__footer1">
-        <h2 id="h21__div2__footer1">اتصالات مفيدة</h2>
-        <p class="p__div2__footer1">الرقم الاقتصادي "ألو اليقضة الوبائية"</p>
-        <h2 class="h22__div2__footer1">080 100 47 47</h2>
-        <p class="p__div2__footer1">للمساعدة الطبية الاستعجالية</p>
-        <h2 class="h22__div2__footer1">114</h2>
-    </div>
-    <p id="p__footer1">
-        Algorithme d'orientation mis à jour sur les recommandations en vigueur</br>
-        au 22/03/2020 à 16h15. Ce site d’information n’est pas un dispositif médical,</br>
-        il ne délivre pas d’avis médical. Projet solidaire d'urgence,financé par l’Alliance</br>
-        Digitale contre le COVID-19 : @maladiecovid19</br>
-    </p>
+  <div id="div1__footer1">
+      <a id="lange2" href="AcceuilFransh.html">FRAN <img src="Design/Assets/SVG/globe.svg"
+              style="width: 20px;padding: 2px;" /></a>
+      <a href="Acceuilarab.html" class="Acceil__header"> الرئيسية</a>
+      <a href="ConseillArab.html" class="Conseil__header">نصائح</a>
+  </div>
+  <div id="div2__footer1">
+      <h2 id="h21__div2__footer1">اتصالات مفيدة</h2>
+      <p class="p__div2__footer1">الرقم الاقتصادي "ألو اليقضة الوبائية"</p>
+      <h2 class="h22__div2__footer1">080 100 47 47</h2>
+      <p class="p__div2__footer1">للمساعدة الطبية الاستعجالية</p>
+      <h2 class="h22__div2__footer1">114</h2>
+  </div>
+  <p id="p__footer1">
+      Algorithme d'orientation mis à jour sur les recommandations en vigueur</br>
+      au 22/03/2020 à 16h15. Ce site d’information n’est pas un dispositif médical,</br>
+      il ne délivre pas d’avis médical. Projet solidaire d'urgence,financé par l’Alliance</br>
+      Digitale contre le COVID-19 : @maladiecovid19</br>
+  </p>
 </footer>
 <footer id="footer2"></footer>
 </article>
-  
 
-  <script type="module" src="js/script.js"></script>
-  <script type="module" src="js/question.js"></script>
+<script src="js/script.js"></script>
+<script src="js/algo.js"></script>
+<script src="js/variable.js"></script>
+
 </body>
-
 </html>
